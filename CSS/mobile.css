@@ -1,0 +1,46 @@
+@media screen and (max-width:1023px) {
+
+    .btn {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:920px) {
+
+
+    .logo img {
+        width: 30% !important;
+    }
+
+    .search {
+        width: 310px;
+    }
+
+    .search img {
+        width: 8% !important;
+    }
+
+    .barra-de-pesquisa {
+
+        width: 214px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .menu {
+
+        align-items: center;
+
+
+    }
+
+    .icons {
+        padding-right: 0px;
+    }
+
+}
