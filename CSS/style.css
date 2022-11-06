@@ -4,6 +4,7 @@
 
 body {
 
+
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background: rgb(54, 54, 54);
@@ -91,6 +92,87 @@ body {
 }
 
 
+.apps {
+    box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.315);
+    text-align: center;
+    z-index: 1;
+    background: rgb(44, 44, 44);
+
+    position: fixed;
+    width: 330px;
+    height: 410px;
+    right: 1.5%;
+    overflow: auto;
+
+    border-radius: 10px;
+
+    /* border: 1px solid red; */
+}
+
+.apps ul {
+    padding: 10px;
+
+}
+
+.apps ul li {
+    cursor: pointer;
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    padding: 6px;
+    margin: 3px;
+
+    border-radius: 10px;
+
+    /* border: 1px solid blue; */
+}
+
+.apps ul li p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+
+    /* border: 1px solid red; */
+}
+
+.apps ul li img {
+    padding-top: 10px;
+}
+
+.apps ul li:hover {
+    transition: 0.2s;
+    background-color: rgb(53, 52, 52);
+
+}
+
+::-webkit-scrollbar {
+    background-color: none;
+    width: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5b5b5b;
+    border-radius: 5px;
+
+
+}
+
+#conta {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(346deg) brightness(95%) contrast(102%);
+
+}
+
+
+.esconder-apps {
+    display: none;
+}
+
+.mostrar-apps {
+    display: block;
+}
 
 /* logo e barra de pesquisa -------------------------------------- */
 
