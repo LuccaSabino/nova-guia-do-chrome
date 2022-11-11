@@ -18,3 +18,13 @@ function show() {
     }
 
 }
+
+
+function show2() {
+
+    var apps = document.getElementById('menu-apps')
+
+    apps.classList.remove('mostrar-apps')
+    apps.classList.add('esconder-apps')
+
+}
